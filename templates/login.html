@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+<body>
+{% block body %}
+<div class="f1">
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card sas" style="background-color:white">
+                <br>
+                <H1 class="fonte10" style="text-align:center">{LOGIN}</H1>
+                <div class="mb-3 mt-5 me-5">
+                    <label class="form-label">Email address</label>
+                    <input type="email" class="form-control saslogin" placeholder="email@example.com">
+                </div>
+                <div class="mb-3 mt-1 me-5">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control saslogin" placeholder="Password">
+                </div>
+                <div class="mb-3 me-5">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck2" style="background-color:#d4d4d4">
+                        <label class="form-check-label" for="dropdownCheck2">Remember me
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div class="container mb-5" style="text-align:center">
+                    <a href="/">
+                        <button type="button" class="btn btn-outline-dark">
+                            <h1 class="fonte1">{Entrar}</h1>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</div>
+{% endblock %}
+</body>
